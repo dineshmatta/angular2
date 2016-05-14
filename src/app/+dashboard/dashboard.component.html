@@ -1,0 +1,14 @@
+<br>
+<div class="ui cards" >
+<div class="card" *ngFor="let planet of planetsList">  
+  <div class="content">
+    <a class="header">{{planet.name}}</a>
+    <div class="meta">
+      <span class="date">Position {{planet.position}} from SUN</span>
+    </div>
+    <div class="description">
+      {{planet.description}}
+    </div>
+  </div>  
+</div>
+</div>
